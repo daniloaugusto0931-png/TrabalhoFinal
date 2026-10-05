@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace TrabalhoFinal
 {
-    internal class cardapio
+    public class Produtos
     {
+        public string Nome { get; set; }
+
     }
 }
