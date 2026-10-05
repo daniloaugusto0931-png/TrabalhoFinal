@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Projeto
+namespace TrabalhoFinal.Dominio
 
 {
     public class ingredientes

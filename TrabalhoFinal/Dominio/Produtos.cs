@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrabalhoFinal
+namespace TrabalhoFinal.Dominio
 {
     public class Produtos
     {
