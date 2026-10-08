@@ -3,9 +3,9 @@ using TrabalhoFinal.Dominio;
 using TrabalhoFinal.Servicos;
 AvaliacaoService.Listar();
 
-Console.WriteLine("Digite o nome da pessoa que deseja cadsatrar?");
+Console.WriteLine("Digite o nome da pessoa que comentou");
 string nome = Console.ReadLine();
-Console.WriteLine("Digite o nome da pessoa que deseja cadsatrar?");
+Console.WriteLine("Digite o nome da pessoa que comentou");
 char estrelas = Console.ReadLine();
 int notas = Console.ReadLine();
 string comentario = Console.ReadLine();

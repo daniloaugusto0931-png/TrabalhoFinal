@@ -17,20 +17,22 @@ namespace TrabalhoFinal.Servicos
                 }
  };
     public static void Adicionar(string nome
-    , string email
-    , DateTime data_nascimento)
+    , char Estrelas
+    ,  int nota,
+        string comentario)
     {
-        Pessoa pessoa = new Pessoa();
-        pessoa.Id = Pessoas.Count > 0 ?
-            Pessoas.Count + 1 : 1;
-        pessoa.Nome = nome;
-        pessoa.Email = email;
-        pessoa.Data_Nascimento = data_nascimento;
-        Pessoas.Add(pessoa);
+        Avaliacao Avaliacao = new Avaliacao();
+        Avaliacao.Id = Avaliacao.Count > 0 ?
+             Avaliacao.Count + 1 : 1;
+        Avaliacao.Nome = nome;
+        Avaliacao.Estrelas = estrelas;
+        Avaliacao.Nota = nota;
+        Avaliacao.Comentario = comentario;
+        Avaliacao.Add(Avaliacao);
     }
     public static void Listar()
     {
-        foreach (Pessoa item in Pessoas)
+        foreach (Avaliacao item in Avaliacao)
         {
             Console.WriteLine(item.Nome);
         }
