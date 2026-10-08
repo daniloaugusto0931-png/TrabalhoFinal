@@ -40,6 +40,12 @@ namespace TrabalhoFinal.Servicos
                 Console.WriteLine(item.Nome);
             }
         }
+        public static void Editar(int id)
+        {
+            Ingredientes p = Ingredientes.Find(pessoa => pessoa.Id == id);
+
+        }
+
     }
 }
 
