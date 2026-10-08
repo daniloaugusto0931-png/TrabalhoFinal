@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TrabalhoFinal.Dominio
 {
-    internal class avaliacao
+    public class avaliacao
     {
         public int id { get; set; }
         public string nome { get; set; }
