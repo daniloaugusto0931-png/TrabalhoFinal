@@ -17,22 +17,22 @@ namespace TrabalhoFinal.Servicos
                 }
  };
     public static void Adicionar(string nome
-    , char Estrelas
-    ,  int nota,
-        string comentario)
+    , char estrelas
+    ,  int nota
+    ,string comentario)
     {
-        Avaliacao Avaliacao = new Avaliacao();
-        Avaliacao.Id = Avaliacao.Count > 0 ?
+        avaliacao avaliacao = new avaliacao();
+        avaliacao.Id = avaliacao.Count > 0 ?
              Avaliacao.Count + 1 : 1;
-        Avaliacao.Nome = nome;
-        Avaliacao.Estrelas = estrelas;
-        Avaliacao.Nota = nota;
-        Avaliacao.Comentario = comentario;
-        Avaliacao.Add(Avaliacao);
+        avaliacao.Nome = nome;
+        avaliacao.Estrelas = estrelas;
+        avaliacao.Nota = nota;
+        avaliacao.Comentario = comentario;
+        avaliacao.Add(Avaliacao);
     }
     public static void Listar()
     {
-        foreach (Avaliacao item in Avaliacao)
+        foreach (avaliacao item in avaliacao)
         {
             Console.WriteLine(item.Nome);
         }
