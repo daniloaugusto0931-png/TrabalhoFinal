@@ -16,7 +16,7 @@ namespace TrabalhoFinal.Servicos
                 new Ingredientes(){ Id=6, Nome="Bacon", Quantidade=20.000, Validade=31/02/2027, Fabrica = "Bacon BS"},
                 new Ingredientes(){ Id=7, Nome="Cebola", Quantidade=20.000, Validade=23/12/2026, Fabrica = "NL Frutas e Legumes"},
                 new Ingredientes(){ Id=8, Nome="Molho Especial", Quantidade=20.00, Validade=10/10/2026, Fabrica ="Quintal Torres" },
-                new Ingredientes(){ Id=9, Nome="Presunto", Quantidade=20.000, Validade=19/01/2027, Fabrica ="Seleção da carne" },
+                new Ingredientes(){ Id=9, Nome="Presunto", Quantidade=20.000, Validade=19/01/2027, Fabrica ="" },
                 new Ingredientes(){ Id=10, Nome="Ovo", Quantidade=20.000, Validade=30/12/2026,  Fabrica ="Rei do Ovo"}
             };
 
