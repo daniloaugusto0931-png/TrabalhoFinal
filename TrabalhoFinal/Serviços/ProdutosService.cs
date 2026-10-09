@@ -21,9 +21,34 @@ namespace TrabalhoFinal.Servicos
             new Produto() { Id = 7, Nome = "X-Duplo-Bacon" },
             new Produto() { Id = 8, Nome = "X-Cheddar" },
             new Produto() { Id = 9, Nome = "X-kids" },
-            new Produto() { Id = 10, Nome = "Hamburguer-de-iri" }
+            new Produto() { Id = 10, Nome = "Hamburguer-de-Siri" }
         };
-
+        public static void Remover(int id)
+        {
+            Produto p = Produto.Find(produto => produto.Id == id);
+            if (p != null)
+            {
+                Produto.Remove(p);
+                Listar();
+            }
+            else
+            {
+                Console.WriteLine("Sistema não conseguiu encontrar o hamburguer");
+            }
+        }
+        public static void Editar(int id, string novoNome, string novoEmail, DateTime novaDataNascimento)
+        {
+            Produto p = Produto.Find(produto => produto.Id == id);
+            if (p != null)
+            {
+                p.Nome = novoNome;
+                Listar();
+            }
+            else
+            {
+                Console.WriteLine("Sistema não conseguiu encontrar o hamburguer.");
+            }
+        }
         public static void Adicionar(string nome)
             
         {
