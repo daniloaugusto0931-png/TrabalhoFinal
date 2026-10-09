@@ -1,23 +1,17 @@
 ﻿using System;
-namespace TrabalhoFinal.Dominio
 
+namespace TrabalhoFinal.Dominio
 {
     public class Ingredientes
-
     {
-public int Id { get; set; }
-public string Nome { get; set; }
+        public int Id { get; set; }
 
-public double Quantidade { get; set; }
+        public string Nome { get; set; }
 
-public double Validade { get; set; }
+        public double Quantidade { get; set; }
 
-public string Fabrica { get; set; }
+        public DateTime Validade { get; set; }
 
-
-
-
+        public string Fabrica { get; set; }
     }
-
-  }
-
+}
