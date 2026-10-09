@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrabalhoFinal.Dominio
+namespace TrabalhoFinal.Serviços
 {
-    public class Produtos
+    class PessoaService
     {
-        public string Nome { get; set; }
-
     }
 }
