@@ -36,7 +36,7 @@ namespace TrabalhoFinal.Servicos
                 Console.WriteLine("Sistema não conseguiu encontrar o hamburguer");
             }
         }
-        public static void Editar(int id, string novoNome, string novoEmail, DateTime novaDataNascimento)
+        public static void Editar(int id, string novoNome)
         {
             Produto p = Produto.Find(produto => produto.Id == id);
             if (p != null)
