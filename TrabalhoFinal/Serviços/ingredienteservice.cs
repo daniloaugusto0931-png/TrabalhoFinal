@@ -11,15 +11,15 @@ namespace TrabalhoFinal.Servicos
         public static List<Ingredientes> Lista { get; set; }
             = new List<Ingredientes>()
             {
-                new Ingredientes(){ Id=1, Nome="Pão de Hambúrguer", Quantidade=15.000, Validade=new DateTime(2027, 02, 12),   Fabrica="Bread Maker" },
-                new Ingredientes(){ Id=2, Nome="Carne Bovina",      Quantidade=15.000, Validade=new DateTime(2027, 04, 13),   Fabrica="Casa de Carnes Silva / Fábrica de Hambúrguer" },
+                new Ingredientes(){ Id=1, Nome="Pão de Hambúrguer", Quantidade=15.000, Validade=new DateTime(2027, 02, 12),  Fabrica="Bread Maker" },
+                new Ingredientes(){ Id=2, Nome="Carne Bovina",      Quantidade=15.000, Validade=new DateTime(2027, 04, 13),  Fabrica="Casa de Carnes Silva / Fábrica de Hambúrguer" },
                 new Ingredientes(){ Id=3, Nome="Queijo Cheddar",    Quantidade=20.000, Validade=new DateTime(2026, 12, 20),  Fabrica="Laticínios Esmeraldas" },
                 new Ingredientes(){ Id=4, Nome="Alface",            Quantidade=20.000, Validade=new DateTime(2026, 11, 30),  Fabrica="NL Frutas e Legumes" },
                 new Ingredientes(){ Id=5, Nome="Tomate",            Quantidade=20.000, Validade=new DateTime(2026, 12, 26),  Fabrica="NL Frutas e Legumes" },
-                new Ingredientes(){ Id=6, Nome="Bacon",             Quantidade=20.000, Validade=new DateTime(2027, 02, 28),   Fabrica="Bacon BS" },
+                new Ingredientes(){ Id=6, Nome="Bacon",             Quantidade=20.000, Validade=new DateTime(2027, 02, 28),  Fabrica="Bacon BS" },
                 new Ingredientes(){ Id=7, Nome="Cebola",            Quantidade=20.000, Validade=new DateTime(2026, 12, 23),  Fabrica="NL Frutas e Legumes" },
                 new Ingredientes(){ Id=8, Nome="Molho Especial",    Quantidade=20.000, Validade=new DateTime(2026, 10, 10),  Fabrica="Quintal Torres" },
-                new Ingredientes(){ Id=9, Nome="Presunto",          Quantidade=20.000, Validade=new DateTime(2027, 01, 19),   Fabrica="Grana pre" },
+                new Ingredientes(){ Id=9, Nome="Presunto",          Quantidade=20.000, Validade=new DateTime(2027, 01, 19),  Fabrica="Grana pre" },
                 new Ingredientes(){ Id=10, Nome="Ovo",              Quantidade=20.000, Validade=new DateTime(2026, 12, 30),  Fabrica="Rei do Ovo" }
             };
 
