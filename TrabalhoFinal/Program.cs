@@ -1,7 +1,3 @@
-
-using System;
-using System.Linq;
-using TrabalhoFinal.Dominio;
 using TrabalhoFinal.Models;
 using TrabalhoFinal.Servicos;
 
