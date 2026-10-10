@@ -124,7 +124,7 @@ namespace TrabalhoFinal.Views
                 Console.Clear();
 
                 Console.WriteLine("================================");
-                Console.WriteLine("      MENU INGREDIENTES");
+                Console.WriteLine("      MENU INGREDIENTE");
                 Console.WriteLine("================================");
                 Console.WriteLine("1 - Listar ingredientes");
                 Console.WriteLine("2 - Excluir ingrediente");
