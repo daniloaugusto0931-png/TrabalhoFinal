@@ -29,6 +29,7 @@ if (resposta.Equals("Sim", StringComparison.OrdinalIgnoreCase))
         Console.WriteLine("Por favor, escolha um hambúrguer que esteja no cardápio.");
     }
 }
+//comparar textos sem diferenciar letras maiúsculas de minúsculas.
 else if (resposta.Equals("Não", StringComparison.OrdinalIgnoreCase) ||
          resposta.Equals("Nao", StringComparison.OrdinalIgnoreCase))
 {
