@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace TrabalhoFinal.Views
+namespace TrabalhoFinal.View
 {
     public class MenuView
     {

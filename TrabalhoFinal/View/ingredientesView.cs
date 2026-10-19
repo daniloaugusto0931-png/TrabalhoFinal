@@ -5,7 +5,7 @@ using TrabalhoFinal.Dominio;
 using TrabalhoFinal.Servicos;
 
 
-namespace TrabalhoFinal.Views
+namespace TrabalhoFinal.View
 {
     public static class IngredientesView
     {
