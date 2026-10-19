@@ -3,7 +3,7 @@ using System;
 
 namespace TrabalhoFinal.View
 {
-    public class MenuView
+    public class MenuINGRETIENTESView
     {
         public static void IniciarSistema()
         {
