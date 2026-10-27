@@ -79,7 +79,7 @@ namespace TrabalhoFinal.View
                 switch (opcao)
                 {
                     case 1:
-                        // Troque pelo método existente no seu projeto.
+                     
                         Console.WriteLine(
                             "Implemente aqui a listagem de pessoas.");
                         Pausar();
