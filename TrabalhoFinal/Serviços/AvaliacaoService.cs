@@ -7,12 +7,12 @@ namespace TrabalhoFinal.Servicos
         public static List<avaliacao> Lista { get; set; }
                 = new List<avaliacao>()
                 {
-                   new avaliacao(){ id=1,nome="Paulo",estrelas='*****', nota= 5, comentario="blablabxcvbvssfla"},
-                   new avaliacao(){ id=2,nome="duda",estrelas='***', nota= 3, comentario="blaxcbmnbblabla"},
-                   new avaliacao(){ id=3,nome="joao",estrelas='****', nota= 4, comentario="blabvbv"},
-                   new avaliacao(){ id=4,nome="pedro",estrelas='*****', nota= 5, comentario="blabhkjhla"},
-                   new avaliacao(){ id=5,nome="julia",estrelas='****', nota= 4, comentario="oiuttiorhla"},
-                   new avaliacao(){ id=6,nome="maria",estrelas='*****', nota= 5, comentario="bopa"},
+                   new avaliacao(){ id=1,nome="Paulo",estrelas='5', nota= 5, comentario="blablabxcvbvssfla"},
+                   new avaliacao(){ id=2,nome="duda",estrelas='*', nota= 3, comentario="blaxcbmnbblabla"},
+                   new avaliacao(){ id=3,nome="joao",estrelas='*', nota= 4, comentario="blabvbv"},
+                   new avaliacao(){ id=4,nome="pedro",estrelas='*', nota= 5, comentario="blabhkjhla"},
+                   new avaliacao(){ id=5,nome="julia",estrelas='*', nota= 4, comentario="oiuttiorhla"},
+                   new avaliacao(){ id=6,nome="maria",estrelas='*', nota= 5, comentario="bopa"},
 
                 
     };

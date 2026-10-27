@@ -7,11 +7,11 @@ namespace TrabalhoFinal.Servicos
         public static List<Cardapio> Cardapio { get; set; }
                 = new List<Cardapio>()
                 {
-                new Cardapio(){ Id=1,Nome="Paulo",estrelas='*****', nota= 5, comentario="blablabxcvbvssfla"},
-                new Cardapio(){ Id=2,Nome="duda",estrelas='***', nota= 3, comentario="blaxcbmnbblabla"},
-                new Cardapio(){ Id=3,Nome="joao",estrelas='****', nota= 4, comentario="blabvbv"},
-                new Cardapio(){ Id=4,Nome="pedro",estrelas='*****', nota= 5, comentario="blabhkjhla"},
-                new Cardapio(){ Id=5,Nome="julia",estrelas='****', nota= 4, comentario="oiuttiorhla"},
+                new Cardapio(){ Id=1,Nome="Paulo",estrelas='*', nota= 5, comentario="blablabxcvbvssfla"},
+                new Cardapio(){ Id=2,Nome="duda",estrelas='*', nota= 3, comentario="blaxcbmnbblabla"},
+                new Cardapio(){ Id=3,Nome="joao",estrelas='*', nota= 4, comentario="blabvbv"},
+                new Cardapio(){ Id=4,Nome="pedro",estrelas='*', nota= 5, comentario="blabhkjhla"},
+                new Cardapio(){ Id=5,Nome="julia",estrelas='*', nota= 4, comentario="oiuttiorhla"},
                 new Cardapio(){ Id=6,Nome="maria",estrelas='*****', nota= 5, comentario="bopa"},
 
                 }

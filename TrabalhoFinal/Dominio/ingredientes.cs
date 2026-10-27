@@ -12,6 +12,6 @@ namespace TrabalhoFinal.Dominio
 
         public DateTime Validade { get; set; }
 
-        public string Fabrica { get; set; }
+        public string Fabricante { get; set; }
     }
 }

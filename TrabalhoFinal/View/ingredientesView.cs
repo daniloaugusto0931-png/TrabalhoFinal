@@ -129,7 +129,7 @@ namespace TrabalhoFinal.View
             string nome,
             double quantidade,
             DateTime validade,
-            string fabrica)
+            string fabricante)
         {
             int largura = 45;
 
@@ -152,7 +152,7 @@ namespace TrabalhoFinal.View
                     largura) + "|");
 
             Console.WriteLine(
-                "|" + AjustarTexto($" Fábrica    : {fabrica}", largura) + "|");
+                "|" + AjustarTexto($" Fábrica    : {fabricante}", largura) + "|");
 
             Console.WriteLine(new string('-', largura + 2));
         }
